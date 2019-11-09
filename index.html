@@ -23,7 +23,7 @@
 	<!--Style Assets-->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="vendors/fontawesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="vendors/owl/owl.carousel.css">
+	<!-- <link rel="stylesheet" href="vendors/owl/owl.carousel.css"> -->
 	
 	
 	<!--Theme Style-->
@@ -44,7 +44,7 @@
 
 <header id="header" class="site-header">
 	<!-- navbar -->
-	<nav class="navbar navbar-defatult navbar-fixed-top fluid-navbar navbar-style1">
+	<nav class="navbar navbar-defatult navbar-fixed-top fluid-navbar navbar-style1 sticky-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<a href="index.html" class="navbar-brand">
@@ -77,7 +77,7 @@
 	
 	<!--Slider-->
 	<div class="home-slider">
-		<div class="item" data-slide="/assets/images/cyber-monday-3869345.jpg">
+		<!-- <div class="item" data-slide="/assets/images/cyber-monday-3869345.jpg"> -->
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-11 col-md-8 col-lg-7">
@@ -96,7 +96,8 @@
                         <b><span class="days" id="day"></span></b>
                     </div>
                     <div class="time">
-                        <b><span class="hours" id="hour"></span></b>
+                        <b><span class="hours" id="hour"></span>
+                        </b>
                     </div>
                     <div class="time">
                         <b><span class="minutes" id="minute"></span></b>
@@ -107,8 +108,10 @@
                 </div>
                 <div class="col-lg-2 col-md-2 col-sm-4"></div>
             </section>
-		</div>
-		<div class="item" data-slide="assets/images/slide2.jpg">
+        </div>
+        
+        <div></div>
+		<!-- <div class="item" data-slide="assets/images/slide2.jpg">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 col-md-7 col-lg-6">
@@ -127,7 +130,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 	
 	<!--Find Domain-->
@@ -136,14 +139,18 @@
 			<div class="row">
 				<div class="col-md-3">
 					<h2 class="form-title">Find Your <strong>Dream Domain</strong></h2>
-					<p>Search for your dream domain now</p>
 				</div>
 				<div class="col-md-9">
 					<div class="input-group">
-						<input type="search" class="form-control">
-						<span class="input-group-addon"><input type="submit" value="Search" class="btn btn-primary"></span>
+						<input type="hidden" class="form-control">
+						<span class="input-group-addon"><input type="hidden" value="Search" class="btn btn-primary"></span>
 					</div>
 					<p>.com <strong>$8.95</strong>.net <strong>$7.95</strong>.org <strong>$9.95</strong>.club <strong>$0.99</strong></p>
+                    <br>
+                    <span class="site-build-offer">
+                        <p>We have an exclusive offer for building websites.</p>
+                        <p>Do you have any website or we can help you to a <strong>build a website</strong><br><a href="#">contact us</a></p>
+                    </span>
 				</div>
 			</div>
 		</div>
@@ -170,15 +177,6 @@
 							<h3 class="au-title">Awesome Wordpress <strong>Hosting Services</strong> from HostPro <strong>Fast. Reliable</strong>. and <strong>Easy to Use</strong></h3>
 							<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
 							<a href="#" class="more-link">More about Wordpress Hosting <i class="fa fa-angle-double-right"></i></a>
-							<div class="media service-quote">
-								<div class="media-left"><a href="#" class="media-object"><img src="assets/images/service-quote.png" alt="HostPro Client image" class="img-circle"></a></div>
-								<div class="media-body">
-									<p><em>Love the support from HostPro team! WordPress hosting boosted my theme business.</em></p>
-									<h4>Jane Sanders</h4>
-									<h5>Themeworks</h5>
-								</div>
-								<div class="media-right"><span class="media-object"><img src="assets/icons/service-quote2.png" alt="HostPro Service Quote Sign"></span></div>
-							</div>
 						</div>
 						<div class="col-md-5 col-plan">
 							<div class="hst-plan row">
@@ -207,15 +205,7 @@
 							<h3>Awesome Shared <strong>Hosting Services</strong> from HostPro <strong>Fast. Reliable</strong>. and <strong>Easy to Use</strong></h3>
 							<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
 							<a href="#" class="more-link">More about Wordpress Hosting <i class="fa fa-angle-double-right"></i></a>
-							<div class="media service-quote">
-								<div class="media-left"><a href="#" class="media-object"><img src="assets/images/service-quote.png" alt="HostPro Client image" class="img-circle"></a></div>
-								<div class="media-body">
-									<p><em>Love the support from HostPro team! WordPress hosting boosted my theme business.</em></p>
-									<h4>Jane Sanders</h4>
-									<h5>Themeworks</h5>
-								</div>
-								<div class="media-right"><span class="media-object"><img src="assets/icons/service-quote2.png" alt="HostPro Service Quote Sign"></span></div>
-							</div>
+							
 						</div>
 						<div class="col-md-5 col-plan">
 							<div class="hst-plan row">
@@ -244,15 +234,7 @@
 							<h3>Awesome VPS <strong>Hosting Services</strong> from HostPro <strong>Fast. Reliable</strong>. and <strong>Easy to Use</strong></h3>
 							<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
 							<a href="#" class="more-link">More about Wordpress Hosting <i class="fa fa-angle-double-right"></i></a>
-							<div class="media service-quote">
-								<div class="media-left"><a href="#" class="media-object"><img src="assets/images/service-quote.png" alt="HostPro Client image" class="img-circle"></a></div>
-								<div class="media-body">
-									<p><em>Love the support from HostPro team! WordPress hosting boosted my theme business.</em></p>
-									<h4>Jane Sanders</h4>
-									<h5>Themeworks</h5>
-								</div>
-								<div class="media-right"><span class="media-object"><img src="assets/icons/service-quote2.png" alt="HostPro Service Quote Sign"></span></div>
-							</div>
+							
 						</div>
 						<div class="col-md-5 col-plan">
 							<div class="hst-plan row">
@@ -281,15 +263,7 @@
 							<h3>Awesome Dedicated <strong>Hosting Services</strong> from HostPro <strong>Fast. Reliable</strong>. and <strong>Easy to Use</strong></h3>
 							<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
 							<a href="#" class="more-link">More about Wordpress Hosting <i class="fa fa-angle-double-right"></i></a>
-							<div class="media service-quote">
-								<div class="media-left"><a href="#" class="media-object"><img src="assets/images/service-quote.png" alt="HostPro Client image" class="img-circle"></a></div>
-								<div class="media-body">
-									<p><em>Love the support from HostPro team! WordPress hosting boosted my theme business.</em></p>
-									<h4>Jane Sanders</h4>
-									<h5>Themeworks</h5>
-								</div>
-								<div class="media-right"><span class="media-object"><img src="assets/icons/service-quote2.png" alt="HostPro Service Quote Sign"></span></div>
-							</div>
+							
 						</div>
 						<div class="col-md-5 col-plan">
 							<div class="hst-plan row">
@@ -663,7 +637,7 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="/vendors/jquery-2.2.0.min.js"></script>
 <script src="/bootstrap/js/bootstrap.min.js"></script>
-<script src="/vendors/owl/owl.carousel.min.js"></script>
+<!-- <script src="/vendors/owl/owl.carousel.min.js"></script> -->
 <script src="/vendors/mcustomscrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="/vendors/isotope.pkgd.min.js"></script>
 <script src="/vendors/imagesloaded.pkgd.min.js"></script>

@@ -5371,3 +5371,27 @@ smalltext {
   font-size: 50px;
   font-weight: 900;
 }
+.site-build-offer {
+  margin-top: 10px;
+}
+.site-build-offer p{
+  font-size: 18px;
+  color: #ffffff;
+}
+.site-build-offer strong{
+  font-size: 25px;
+}
+.site-build-offer a{
+  color: #b10aea;
+}
+.home-slider
+{
+  height: 100vh;
+  background-image: url("/assets/images/cyber-monday-3869345.jpg");
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+}
