@@ -18,56 +18,6 @@
 
   $('[data-toggle="tooltip"]').tooltip();
 
-  if ($(".home-slider").length) {
-    $(".home-slider").each(function() {
-      $(".home-slider").owlCarousel({
-        items: 1,
-        margin: 0,
-        nav: false,
-        autoplay: false,
-        loop: true
-      });
-    });
-  }
-
-  if ($(".services-at-hostpro").length) {
-    $(".services-at-hostpro").each(function() {
-      $(".services-at-hostpro").owlCarousel({
-        items: 1,
-        margin: 0,
-        nav: false,
-        autoplay: true
-      });
-    });
-  }
-
-  if ($(".features-slider").length) {
-    $(".features-slider").each(function() {
-      $(".features-slider").owlCarousel({
-        items: 1,
-        margin: 0,
-        nav: false,
-        autoplay: true
-      });
-    });
-  }
-
-  if ($(".testimonail-carousel").length) {
-    $(".testimonail-carousel").each(function() {
-      $(".testimonail-carousel").owlCarousel({
-        items: 1,
-        margin: 0,
-        nav: true,
-        navText: [
-          '<img src="assets/icons/s-arrow-left.png" alt="Testmonial Arrow">',
-          '<img src="assets/icons/s-arrow-right.png" alt="Testmonial Arrow">'
-        ],
-        autoplay: true,
-        loop: true
-      });
-    });
-  }
-
   if ($("[data-slide]").length) {
     $("[data-slide]").each(function() {
       var data_value = $(this).data("slide");
@@ -244,6 +194,21 @@
       loop: true,
       touch: true,
       spacing: -0.4
+    });
+  }
+  if ($(window).width() <= 425) {
+    $(".logo-slider").slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000
+    });
+  } else {
+    $(".logo-slider").slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000
     });
   }
 })(jQuery);
