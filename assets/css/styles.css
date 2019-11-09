@@ -2716,7 +2716,7 @@ p {
   letter-spacing: 0; }
 
 .pricing-tabs-section {
-  padding: 75px 0 105px;
+  padding: 0px 0 105px;
   background: #f2f6f8; }
   .pricing-tabs-section.style5 {
     background: url(../icons/bg-circle.png) no-repeat scroll center 0 #fff;
@@ -4527,7 +4527,9 @@ p {
     line-height: 1.7;
     font-family: "Lato", sans-serif;
     margin: 0;
-    color: #647482; }
+    color: #647482; 
+    text-align: center;
+  }
 
 .site-footer-bottom {
   padding: 43px 0;
