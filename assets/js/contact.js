@@ -1,3 +1,4 @@
+// Avalon HOsting Services LTD
 $(document).ready(function(){
     
     (function($) {
