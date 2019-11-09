@@ -5319,3 +5319,13 @@ blockquote {
   @media (max-width: 767px) {
     blockquote {
       padding-right: 45px; } }
+
+      
+.navbar-brand{
+  /* margin-top: 10px !important; */
+}      
+.navbar-brand h2{
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  margin-top: 0px !important;
+}
