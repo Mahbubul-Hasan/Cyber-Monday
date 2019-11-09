@@ -5395,3 +5395,16 @@ smalltext {
   background-size:cover;
   background-position:center;
 }
+.cover-content{
+  padding-top: 40vh;
+}
+.follow-steps{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 70px;
+  padding: 10px;
+  background-color: red;
+  font-size: 16px;
+  color: #ffff;
+}
