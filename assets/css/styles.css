@@ -4513,6 +4513,9 @@ p {
 .site-footer-top {
   background: #253135;
   padding: 30px 0; }
+  .site-footer-top a{
+    color: #35abdf;
+  }
   .site-footer-top [class^="col-sm"] {
     float: none;
     vertical-align: middle;
