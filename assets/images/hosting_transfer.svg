@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="415" height="211" viewBox="0 0 415 211">
+    <defs>
+        <rect id="f" width="131.936" height="48" rx="2.4"/>
+        <rect id="g" width="131.936" height="48" rx="2.4"/>
+        <rect id="h" width="131.936" height="48" rx="2.4"/>
+        <rect id="i" width="131.936" height="48" rx="2.4"/>
+        <rect id="j" width="131.936" height="48" rx="2.4"/>
+        <rect id="k" width="131.936" height="48" rx="2.4"/>
+        <filter id="l" width="116.5%" height="116.4%" x="-8.3%" y="-8.2%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.233384284 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="m" width="125.8%" height="125.8%" x="-12.9%" y="-12.9%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.113903986 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="a" d="M12.5 25.014h68.275v6.88H12.5v-6.88z"/>
+        <mask id="n" width="68.274" height="6.88" x="0" y="0" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <path id="b" d="M12.5 40.407h68.275v20.64H12.5v-20.64z"/>
+        <mask id="o" width="68.274" height="20.641" x="0" y="0" fill="#fff">
+            <use xlink:href="#b"/>
+        </mask>
+        <path id="c" d="M35.58 65.42h21.227v16.055H35.58V65.42z"/>
+        <mask id="p" width="21.228" height="16.054" x="0" y="0" fill="#fff">
+            <use xlink:href="#c"/>
+        </mask>
+        <path id="d" d="M59.62 65.42h21.228v16.055H59.62V65.42z"/>
+        <mask id="q" width="21.228" height="16.054" x="0" y="0" fill="#fff">
+            <use xlink:href="#d"/>
+        </mask>
+        <path id="e" d="M12.5 65.42h20.655v16.055H12.501V65.42z"/>
+        <mask id="r" width="20.654" height="16.054" x="0" y="0" fill="#fff">
+            <use xlink:href="#e"/>
+        </mask>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#BD0F12" d="M185.334 1.4v4.497h-10.338v6.382h8.61v4.514h-8.61V26.6h-5.878V1.4h16.216zm8.886 15.878V26.6h-5.843V1.4h8.194c1.821 0 3.374.187 4.659.562 1.285.375 2.334.897 3.146 1.565.813.67 1.403 1.459 1.772 2.37.37.91.553 1.902.553 2.975a7.99 7.99 0 0 1-.328 2.317 7.02 7.02 0 0 1-.977 2.015 7.56 7.56 0 0 1-1.59 1.652 8.444 8.444 0 0 1-2.17 1.194c.392.196.758.438 1.098.726.34.288.637.64.89 1.055l5.36 8.769h-5.29c-.98 0-1.683-.369-2.11-1.107l-4.183-7.316c-.185-.323-.4-.554-.648-.692-.248-.138-.597-.207-1.046-.207h-1.487zm0-4.03h2.351c.795 0 1.472-.101 2.031-.303.56-.202 1.017-.481 1.375-.839.357-.357.616-.775.778-1.254.16-.478.242-.994.242-1.548 0-1.107-.36-1.972-1.08-2.594-.721-.623-1.836-.934-3.346-.934h-2.351v7.472zM227.585 1.4v4.497h-10.338v5.88h7.918v4.324h-7.918v6.002h10.338V26.6h-16.216V1.4h16.216zm19.535 0v4.497h-10.338v5.88h7.917v4.324h-7.917v6.002h10.338V26.6h-16.216V1.4h16.216z"/>
+        <g transform="translate(283.064)">
+            <use fill="#45485B" xlink:href="#f"/>
+            <rect width="122.336" height="38.4" x="4.8" y="4.8" stroke="#252834" stroke-width="9.6" rx="2.4"/>
+        </g>
+        <path fill="#000" fill-opacity=".2" d="M349.032 0H412.6a2.4 2.4 0 0 1 2.4 2.4v43.2a2.4 2.4 0 0 1-2.4 2.4h-63.568V0z"/>
+        <g transform="translate(283.064 52.8)">
+            <use fill="#45485B" xlink:href="#g"/>
+            <rect width="122.336" height="38.4" x="4.8" y="4.8" stroke="#252834" stroke-width="9.6" rx="2.4"/>
+        </g>
+        <path fill="#000" fill-opacity=".2" d="M349.032 52.8H412.6a2.4 2.4 0 0 1 2.4 2.4v43.2a2.4 2.4 0 0 1-2.4 2.4h-63.568v-48z"/>
+        <g transform="translate(283.064 105.6)">
+            <use fill="#45485B" xlink:href="#h"/>
+            <rect width="122.336" height="38.4" x="4.8" y="4.8" stroke="#252834" stroke-width="9.6" rx="2.4"/>
+        </g>
+        <path fill="#000" fill-opacity=".2" d="M349.032 105.6H412.6a2.4 2.4 0 0 1 2.4 2.4v43.2a2.4 2.4 0 0 1-2.4 2.4h-63.568v-48z"/>
+        <g fill="#7ED321" transform="translate(301.055 20.4)">
+            <ellipse cx="3.598" cy="3.6" rx="3.598" ry="3.6"/>
+            <ellipse cx="16.792" cy="3.6" rx="3.598" ry="3.6"/>
+            <ellipse cx="31.185" cy="3.6" rx="3.598" ry="3.6"/>
+        </g>
+        <g fill="#7CB43A" transform="translate(301.055 126)">
+            <ellipse cx="3.598" cy="3.6" rx="3.598" ry="3.6"/>
+            <ellipse cx="16.792" cy="3.6" rx="3.598" ry="3.6"/>
+            <ellipse cx="31.185" cy="3.6" rx="3.598" ry="3.6"/>
+        </g>
+        <g opacity=".593">
+            <g>
+                <use fill="#61636D" xlink:href="#i"/>
+                <rect width="122.336" height="38.4" x="4.8" y="4.8" stroke="#424550" stroke-width="9.6" rx="2.4"/>
+            </g>
+            <path fill="#000" fill-opacity=".2" d="M65.968 0h63.568a2.4 2.4 0 0 1 2.4 2.4v43.2a2.4 2.4 0 0 1-2.4 2.4H65.968V0z"/>
+            <g transform="translate(0 52.8)">
+                <use fill="#61636D" xlink:href="#j"/>
+                <rect width="122.336" height="38.4" x="4.8" y="4.8" stroke="#424550" stroke-width="9.6" rx="2.4"/>
+            </g>
+            <path fill="#000" fill-opacity=".2" d="M65.968 52.8h63.568a2.4 2.4 0 0 1 2.4 2.4v43.2a2.4 2.4 0 0 1-2.4 2.4H65.968v-48z"/>
+            <g transform="translate(0 105.6)">
+                <use fill="#61636D" xlink:href="#k"/>
+                <rect width="122.336" height="38.4" x="4.8" y="4.8" stroke="#424550" stroke-width="9.6" rx="2.4"/>
+            </g>
+            <path fill="#000" fill-opacity=".2" d="M65.968 105.6h63.568a2.4 2.4 0 0 1 2.4 2.4v43.2a2.4 2.4 0 0 1-2.4 2.4H65.968v-48z"/>
+            <g fill="#FFF" transform="translate(17.991 20.4)">
+                <ellipse cx="3.598" cy="3.6" rx="3.598" ry="3.6"/>
+                <ellipse cx="16.792" cy="3.6" rx="3.598" ry="3.6"/>
+                <ellipse cx="31.185" cy="3.6" rx="3.598" ry="3.6"/>
+            </g>
+            <g fill="#FFF" transform="translate(17.991 73.2)">
+                <ellipse cx="3.598" cy="3.6" rx="3.598" ry="3.6"/>
+                <ellipse cx="16.792" cy="3.6" rx="3.598" ry="3.6"/>
+                <ellipse cx="31.185" cy="3.6" rx="3.598" ry="3.6"/>
+            </g>
+            <g fill="#FFF" transform="translate(17.991 126)">
+                <ellipse cx="3.598" cy="3.6" rx="3.598" ry="3.6"/>
+                <ellipse cx="16.792" cy="3.6" rx="3.598" ry="3.6"/>
+                <ellipse cx="31.185" cy="3.6" rx="3.598" ry="3.6"/>
+            </g>
+        </g>
+        <g>
+            <g filter="url(#l)" transform="translate(226.975 70.881)">
+                <path fill="#BD0F12" d="M6.133 0h114.305a6.133 6.133 0 0 1 6.133 6.133v10.664H0V6.133A6.133 6.133 0 0 1 6.133 0z"/>
+                <path fill="#C8C8CC" d="M5.017 127.55c-2.77 0-5.017-2.8-5.017-6.253v-104.5h126.571v104.5c0 3.454-2.246 6.253-5.017 6.253H5.017z"/>
+                <path fill="#F8F8F8" d="M5.017 124.43c-2.77 0-5.017-2.8-5.017-6.253V16.797h126.571v101.38c0 3.454-2.246 6.254-5.017 6.254H5.017z"/>
+                <path fill="#C8C8CC" d="M0 16.797h126.571v3.054H0z"/>
+                <ellipse cx="10.735" cy="9.162" fill="#FFF" rx="3.067" ry="3.054"/>
+                <ellipse cx="23.004" cy="9.162" fill="#FFF" rx="3.067" ry="3.054"/>
+                <ellipse cx="35.272" cy="9.162" fill="#FFF" rx="3.067" ry="3.054"/>
+                <path fill="#D6D7D9" d="M15.821 34.369h93.61v9.453h-93.61zM15.821 55.519h93.61v28.36h-93.61zM15.821 89.888H44.14v22.058H15.821zM47.464 89.888H76.57v22.058H47.464zM81.744 89.888h28.319v22.058H81.744z"/>
+            </g>
+            <path fill="#BD0F12" d="M316.63 181.919h9.229v-7.932h-9.23v7.932zm46.146 1.322h6.592v-6.61h-6.592v6.61zm-23.733 1.321h-14.502v13.22h14.502v-13.22zm11.866 13.22h11.867v-11.898h-11.867v11.897zM339.043 211h14.503v-13.219h-14.503V211z"/>
+        </g>
+        <g transform="translate(86 88)">
+            <g filter="url(#m)">
+                <path fill="#252834" d="M4.46 0h83.394a4.46 4.46 0 0 1 4.46 4.46v7.765H0V4.46A4.46 4.46 0 0 1 4.46 0z"/>
+                <path fill="#C8C8CC" d="M3.66 92.832C1.637 92.832 0 90.794 0 88.28V12.225h92.314V88.28c0 2.513-1.638 4.55-3.66 4.55H3.66z"/>
+                <path fill="#FFF" d="M3.66 90.561C1.637 90.561 0 88.524 0 86.01V12.225h92.314V86.01c0 2.514-1.638 4.551-3.66 4.551H3.66z"/>
+                <path fill="#C8C8CC" d="M0 12.225h92.314v2.223H0z"/>
+                <ellipse cx="7.83" cy="6.668" fill="#FF6A4C" rx="2.237" ry="2.223"/>
+                <ellipse cx="16.778" cy="6.668" fill="#FED41F" rx="2.237" ry="2.223"/>
+                <ellipse cx="25.726" cy="6.668" fill="#46D064" rx="2.237" ry="2.223"/>
+            </g>
+            <use stroke="#000" stroke-dasharray="1.92" stroke-opacity=".543" mask="url(#n)" xlink:href="#a"/>
+            <use stroke="#000" stroke-dasharray="1.92" stroke-opacity=".543" mask="url(#o)" xlink:href="#b"/>
+            <use stroke="#000" stroke-dasharray="1.92" stroke-opacity=".543" mask="url(#p)" xlink:href="#c"/>
+            <use stroke="#000" stroke-dasharray="1.92" stroke-opacity=".543" mask="url(#q)" xlink:href="#d"/>
+            <use stroke="#000" stroke-dasharray="1.92" stroke-opacity=".543" mask="url(#r)" xlink:href="#e"/>
+        </g>
+        <path fill="#BD0F12" fill-rule="nonzero" d="M261.952 58.72a2.4 2.4 0 0 1 .07 3.394c-.917.956-6.552 4.733-7.509 3.815-12.756-12.234-34.886-22.252-52.917-22.252-20.074 0-41.158 12.876-52.937 35.58a2.4 2.4 0 0 1-3.235 1.024c-1.177-.61-.636-1.059-.025-2.235 12.596-24.28 37.672-39.846 65.51-39.846 19.283 0 37.402 7.437 51.043 20.52z"/>
+        <path fill="#BD0F12" d="M261.713 66.258l4.177-11.172a1.2 1.2 0 0 0-1.795-1.415l-16.1 10.86a1.2 1.2 0 0 0 .64 2.194l11.922.312a1.2 1.2 0 0 0 1.156-.78z"/>
+    </g>
+</svg>

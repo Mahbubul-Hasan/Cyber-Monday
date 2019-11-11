@@ -1724,7 +1724,8 @@ p {
   margin: 25px 0;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  color: #36424d; }
+  color: #36424d;
+  font-size: 25px; }
 
 .wtc-icon2 {
   line-height: 98px;
@@ -1750,6 +1751,7 @@ p {
   letter-spacing: 8px; }
 
 .wtc-inner {
+  height: 300px;
   background: #fff;
   padding: 55px 30px;
   margin: 0;
