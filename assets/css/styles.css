@@ -670,7 +670,9 @@ p {
   line-height: 27px;
   opacity: 0.62;
   color: #fff;
-  margin-bottom: 35px; }
+  margin-bottom: 35px; 
+  background-color: #2a0332;
+  padding-left: 10px; }
   @media (min-width: 1025px) {
     .home-slider p {
       padding-right: 200px; } }
